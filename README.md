@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# ✨ Aplicación de Chat en Tiempo Real
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bienvenido a la **Aplicación de Chat en Tiempo Real**, una plataforma moderna y fluida para conversar con tus amigos en tiempo real. Construida con **React** y **Firebase**, esta aplicación ofrece un rendimiento rápido y una experiencia de usuario intuitiva.
+
+## 🏢 Demo en Vivo
+Accede a la aplicación en el siguiente enlace:
+[https://chatapp-fsj.vercel.app/](https://chatapp-fsj.vercel.app/)
+
+## ⚡ Tecnologías Utilizadas
+- **React** - Interfaz de usuario moderna y eficiente.
+- **Firebase** - Autenticación y base de datos en tiempo real.
+- **Vercel** - Hosting rápido y confiable.
+- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## 🔧 Características Principales
+- ✅ Autenticación con Google y correo/contraseña.
+- 💬 Mensajería en tiempo real con Firebase Firestore.
+- 🌐 Diseño responsive y amigable para cualquier dispositivo.
+
+## 🔗 Nota Importante
+- Actualmente, si un nuevo usuario envía un mensaje y otro usuario inicia sesión posteriormente, los mensajes previos pueden aparecer como si fueran enviados al nuevo usuario. Se recomienda revisar la configuración de identificación de usuarios en el chat para evitar confusiones.
 
 ## Available Scripts
 
