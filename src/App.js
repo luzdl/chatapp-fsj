@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './App.css';
 
 import firebase from 'firebase/compat/app'; 
@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Chat de Luz :p</h1>
+        <h1>Chat de Luz</h1>
         <SignOut/>
       </header>
       <section>
@@ -57,7 +57,7 @@ function SignOut(){
 }
 
 function ChatRoom(){
-  const dummy = useRef()
+  const dummy = useRef();
 
   const messagesRef = firestore.collection('messages');
   const query = messagesRef.orderBy('createdAt').limit(25);
